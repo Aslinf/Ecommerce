@@ -1,0 +1,27 @@
+@import "mixins";
+
+.product-card {
+    height: 100%;
+    border: 2px solid #cbcbcb;
+    transition: all ease-in .2s;
+    &:hover {
+        border-color: black;
+    }
+}
+
+.product-card-header{
+    @include center();
+    img{
+        height: 100%;
+        width: 98%;
+    }
+}
+
+.product-card-description {
+    color: black;
+    margin: 1rem;
+    font-size: 1.1rem;
+    p:last-child{
+        font-weight: 700;
+    }
+}

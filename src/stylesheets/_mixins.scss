@@ -1,0 +1,9 @@
+@mixin center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+//variables
+$background-color: rgb(241, 241, 241);

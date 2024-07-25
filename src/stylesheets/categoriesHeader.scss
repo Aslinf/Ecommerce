@@ -1,0 +1,41 @@
+@import "mixins";
+
+.categories-header {
+    @include center();
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-top: 10rem;
+    width: 100%;
+}
+
+.categories-title {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    a {
+        display: flex;
+        text-align: left;
+    }
+    h2 {
+        width: 100%;
+        text-align: center
+    }
+}
+
+.categories-filters {
+    @include center();
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    a{
+        color: black;
+        margin: 0 1rem;
+        padding: .5rem;
+        border: 2px solid #cbcbcb;
+        width: 100px;
+        text-align: center;
+        &:hover {
+            border-color: black;
+        }
+    }
+}

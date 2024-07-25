@@ -1,0 +1,32 @@
+@import "../mixins";
+
+footer {
+    @include center();
+    padding: 3rem 0;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-container {
+    @include center();
+    row-gap: 2rem;
+    flex-direction: column;
+    a {
+        color: white;
+    }
+}
+
+.footer-content {
+    @include center();
+    padding: 0 2.5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    p {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
