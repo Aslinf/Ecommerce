@@ -11,4 +11,3 @@ Build with:
 
 ![homepage](https://github.com/user-attachments/assets/547b5ba0-4932-4f1d-bd59-541d195286f1)
 
-Credits for the design goes to [Abderraouf](https://github.com/Abderraouf-Rahmani)
